@@ -1,0 +1,25 @@
+function encryptText() {
+  let input = document.getElementById("inputText").value;
+  let encryptedText = input
+    .toLowerCase()
+    .replace(/e/g, "enter")
+    .replace(/i/g, "imes")
+    .replace(/a/g, "ai")
+    .replace(/o/g, "ober")
+    .replace(/u/g, "ufat");
+
+  document.getElementById("outputText").value = encryptedText;
+}
+
+function decryptText() {
+  let input = document.getElementById("inputText").value;
+  let decryptedText = input
+    .toLowerCase()
+    .replace(/enter/g, "e")
+    .replace(/imes/g, "i")
+    .replace(/ai/g, "a")
+    .replace(/ober/g, "o")
+    .replace(/ufat/g, "u");
+
+  document.getElementById("outputText").value = decryptedText;
+}

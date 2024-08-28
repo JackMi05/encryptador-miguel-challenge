@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncriptadorMiguel</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header></header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+            <strong>Encriptador de texto</strong>
+            </h1>
+
+            <div>
+                <textarea id="inputText" class="input" type="text" placeholder="Ingresa el texto aquí en minúsculas y sin acentos"></textarea>
+                <textarea id="outputText" class="input" type="text" readonly placeholder="Texto encriptado/desencriptado"></textarea>
+                
+            </div>
+
+            <div>
+                <img src="./ims/MuñecoONE.png" alt="muñeco" class="muñeco"> 
+            </div>
+
+            <div class="presentacion__botones">
+                <button onclick="encryptText()" class="presentacion__botones__estilo">Encriptar</button>
+                <button onclick="decryptText()" class="presentacion__botones__estilo">Desencriptar</button>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p class="footer">Desarrollado por Miguel</p>
+    </footer>
+
+    <script src="script,js"></script>
+</body>
+</html>

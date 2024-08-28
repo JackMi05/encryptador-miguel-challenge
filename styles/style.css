@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:#011603;
+    color: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+strong { 
+    color: #ffffff
+}
+
+.destaque-color {
+    color: green;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 15% 15%;
+    justify-content: space-between;
+}
+
+.presentacion__contenido{
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Moderustic", sans-serif;
+}
+
+.presentacion__contenido__texto{
+    font-size: 24px;
+    font-family: "Moderustic", sans-serif;
+}
+
+.presentacion__botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion__botones__estilo{
+    width: 412px;
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    padding: 24px 24px;
+    border-radius: 24px;
+    font-family: "Moderustic", sans-serif;
+    font-size: 16px;
+    font-weight: 0;
+    cursor: pointer;
+    
+}
+
+.footer{
+    background-color: #543310;
+    padding: 24px;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Moderustic", sans-serif;
+}
+
+.input{
+    background-color: #042903;
+    height: 300px;
+    color: #00FF00;
+    cursor: text;
+    font-family: "Moderustic", sans-serif;
+    font-size: 24px;
+}
+
+.muñeco{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    cursor: crosshair;
+}
+   
